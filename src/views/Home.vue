@@ -1,18 +1,25 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h2>
+      <a
+        href="https://youtu.be/DD1fEhcEzY8"
+        rel="noopener noreferrer"
+        target="_blank"
+        >TDD with Vue by Sarah Dayan @VueConf2020</a
+      >
+    </h2>
+    <AppRating :maxStars="5" :activeStars="3" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import AppRating from '@/components/AppRating.vue'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    HelloWorld
+    AppRating
   }
-};
+}
 </script>
