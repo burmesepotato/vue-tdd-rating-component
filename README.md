@@ -1,4 +1,4 @@
-# star-rating-tdd
+# vue-tdd-rating-component by Sarah Dayan @VueConf2020
 
 ## Project setup
 ```
